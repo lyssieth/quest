@@ -1,3 +1,7 @@
 {
-	"*": "pnpm check-lint"
+	"*.svelte": "pnpm check-lint",
+	"*.js": "pnpm check-lint",
+	"*.ts": "pnpm check-lint",
+	"*.css": "pnpm check-lint",
+	"*.scss": "pnpm check-lint"
 }
