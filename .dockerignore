@@ -1,0 +1,7 @@
+.config/
+.husky/
+.vscode/
+build/
+node_modules/
+redis-data/
+config.json
