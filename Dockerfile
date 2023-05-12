@@ -15,4 +15,4 @@ WORKDIR /app
 
 COPY --from=builder /app/build /app
 
-CMD ["deno", "run", "-A", "index.js"]
+CMD ["run", "-A", "index.js"]
