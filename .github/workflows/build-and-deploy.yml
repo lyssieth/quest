@@ -1,11 +1,14 @@
 name: Build and Deploy Docker Image
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ['Lint and Check Node stuff']
+    branches: [main]
+    types:
+      - completed
 
 jobs:
-  build:
+  build-and-deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
