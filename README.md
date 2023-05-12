@@ -1,2 +1,3 @@
-# quest
-A website for running live interactive fiction, I think?
+# Quest
+
+The intention of this project is to create a decent platform for live fiction writing.
