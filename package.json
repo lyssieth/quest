@@ -35,5 +35,8 @@
 		"typescript": "^5.0.4",
 		"vite": "^4.3.5"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@fontsource/inter": "^4.5.15"
+	}
 }
